@@ -6,17 +6,20 @@ const Projects = () => {
       className="flex min-h-full flex-col items-center justify-center bg-[#000000] py-28 text-white"
       id="projects"
     >
-      <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-12 px-10 sm:flex-row md:gap-6">
+      <div className="mx-auto flex max-w-6xl flex-row md:flex-col-reverse items-center gap-12 px-10 md:gap-6">
         <div>
           <div className="p-2">
             <div className="my-3 text-gray-200">
               <h3 className="mb-5 text-4xl font-semibold">
                 My <span>Projects</span>
               </h3>
-              <p className="text-justify leading-7">
+              <p className="text-base md:text-lg">
                 Both independently and with a team, I have developed various
                 projects, through which I have learned a wide range of
-                technologies and high quality code writing. Beyond that, I have
+                technologies and high quality code writing.
+              </p>
+              <p className="text-base md:text-lg mt-3">
+                Beyond that, I have
                 learned other skills important in software development, such as
                 design, testing, security, documentation and agile development
                 methods.
@@ -33,8 +36,7 @@ const Projects = () => {
                 <p className="mb-7 mt-3 font-normal text-gray-200">
                   This website is designed to both showcase and develop my
                   skills. Used technologies include <strong>JavaScript</strong>,
-                  <strong> React</strong>, and
-                  <strong> Tailwind</strong>.
+                  <strong> React</strong>, and <strong> Tailwind</strong>.
                 </p>
               </div>
               <a
@@ -70,7 +72,7 @@ const Projects = () => {
                 used <strong>Scrum</strong> as our agile framework. The
                 technologies used included <strong>TypeScript</strong>,
                 <strong> React</strong>, <strong>Next.js</strong>,
-                <strong> Docker</strong>,<strong> PostgreSQL</strong>, and
+                <strong> Docker</strong>,<strong> PostgreSQL</strong> and
                 testing with
                 <strong> Cypress</strong> and
                 <strong> Jest</strong>.
@@ -100,14 +102,14 @@ const Projects = () => {
 
             <div className="bg-gray rounded-lg p-6 shadow">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                Design in HCI
+                UI/UX Design Project
               </h5>
               <p className="mb-7 mt-3 font-normal text-gray-200">
-                Mobile application designed to make is easier to discover and
-                attend cultural activities. I used Miro for the design. Project
-                was part of the course{" "}
-                <strong>Human Computer Interaction </strong>
-                (CSM13401) in the University of Helsinki.
+                Mobile application designed to make it easier to discover and
+                attend cultural activities. I used Miro to create the design. 
+                Projectwas part of the course
+                <strong> Human Computer Interaction</strong>. The project included
+                multiple design iterations and research with users.
               </p>
               <a
                 href="/"
@@ -137,11 +139,12 @@ const Projects = () => {
                 Cyber Security Project
               </h5>
               <p className="mb-7 mt-3 font-normal text-gray-200">
-                During the project I learned how the OWASP top 10 security risks
-                appear by creating an application containing security issues,
-                and providing steps to fix them. Used technologies included
+                Implemented independently for the course <strong>Cyber Security Base</strong>.
+                I learned more about common security flaws, how to identify them and
+                secure applications from vulnerabilities. The created application contains security issues,
+                and I provided steps to fix them. Used technologies included
                 <strong> Python</strong>,<strong> Flask</strong>,
-                <strong> HTML</strong>, and
+                <strong> HTML</strong> and
                 <strong> SQLite</strong>.
               </p>
               <a
@@ -172,11 +175,12 @@ const Projects = () => {
                 Library-app
               </h5>
               <p className="mb-7 mt-3 font-normal text-gray-200">
-                Web application programmed independently on the course Database
-                Application. Technologies included
+                Web application that simulates library management and client 
+                functionalities. Technologies included
                 <strong> Python</strong>,<strong> Flask</strong>,
-                <strong> PostgreSQL</strong>, and
-                <strong> HTML/CSS</strong>.
+                <strong> PostgreSQL</strong> and
+                <strong> HTML/CSS</strong>. Programmed independently on the course Database
+                Application. 
               </p>
               <a
                 href="https://github.com/erjavaskivuori/tsoha-library"
@@ -206,10 +210,11 @@ const Projects = () => {
                 Study-app
               </h5>
               <p className="mb-7 mt-3 font-normal text-gray-200">
-                Desktop application programmed independently on the course
-                Software Development Methods. Used technologies included
-                <strong> Python</strong>, <strong>Tkinter</strong>, and
-                <strong> SQLite</strong>.
+                Desktop application to manage university courses and tasks related to them. 
+                Used technologies included
+                <strong> Python</strong>, <strong>Tkinter</strong> and
+                <strong> SQLite</strong>. Programmed independently on the course
+                Software Development Methods. 
               </p>
               <a
                 href="https://github.com/erjavaskivuori/ot-harjoitustyo"
