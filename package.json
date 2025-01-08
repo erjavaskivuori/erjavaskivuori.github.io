@@ -20,7 +20,16 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix",
-    "format": "prettier --write './**/*.{js,jsx,css,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,css,json}' --config ./.prettierrc",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --quiet --fix"
+    ],
+    "*.{json,js,jsx,html}": [
+      "prettier --write --ignore-unknown"
+    ]
   },
   "eslintConfig": {
     "extends": [
