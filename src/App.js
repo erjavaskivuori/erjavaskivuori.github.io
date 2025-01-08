@@ -1,7 +1,8 @@
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import React from 'react';
+import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
