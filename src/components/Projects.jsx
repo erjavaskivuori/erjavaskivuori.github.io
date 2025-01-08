@@ -38,7 +38,7 @@ const Projects = () => {
                 </p>
               </div>
               <a
-                href="https://github.com/erjavaskivuori"
+                href="https://github.com/erjavaskivuori/portfolio"
                 className="button-color button-hover inline-flex items-center self-start rounded-lg px-3 py-2 text-center text-sm font-medium text-white"
               >
                 GitHub
@@ -110,7 +110,7 @@ const Projects = () => {
                 (CSM13401) in the University of Helsinki.
               </p>
               <a
-                href="#"
+                href="/"
                 className="button-color button-hover inline-flex items-center rounded-lg bg-violet-600 px-3 py-2 text-center text-sm font-medium text-white hover:bg-violet-800"
               >
                 Read more

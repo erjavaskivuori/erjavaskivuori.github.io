@@ -16,6 +16,7 @@ const Navbar = () => {
           <img
             className="mx-auto h-auto w-[60px] rounded-full md:w-[90px]"
             src={profile}
+            alt="Erja Vaskivuori"
           />
         </div>
         <h1 className="secondary-color ml-4 w-full text-xl font-bold lg:text-2xl">
@@ -33,7 +34,17 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div onClick={handleNav} className="block md:hidden">
+        <div
+          role="button"
+          onClick={handleNav}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              handleNav();
+            }
+          }}
+          tabIndex={0}
+          className="block md:hidden"
+        >
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
 
