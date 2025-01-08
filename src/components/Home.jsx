@@ -14,10 +14,10 @@ const Home = () => {
           <p className="font-bold text-gray-200 text-2xl md:text-3xl">
             Hi there! I am
           </p>
-          <p className="pt-3 font-bold text-gray-200 text-5xl md:text-6xl">
+          <p className="pt-3 font-bold text-gray-200 text-4xl md:text-6xl">
             Erja Vaskivuori
           </p>
-          <h1 className="my-2 py-3 font-bold text-3xl md:py-6 md:text-5xl">
+          <h1 className="my-2 py-3 font-bold text-xl md:py-6 md:text-5xl">
             <TypeAnimation
               sequence={[
                 "Software developer",
