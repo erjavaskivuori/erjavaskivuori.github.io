@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111318;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  letter-spacing: 0.3px;
+}
+
+span,
+.primary-color {
+  background-image: linear-gradient(to right, #9a60ff, #b290ce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.secondary-color {
+  background-image: linear-gradient(to right, #ba9af0, #cab8d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-primary-color {
+  background-image: linear-gradient(to right, #6b2b72, #a5079d);
+}
+
+.button-color {
+  background-image: linear-gradient(to right, #4e13b5, #7954ca);
+}
+
+.button-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+strong {
+  color: rgb(196, 177, 254);
+}
+
+div .bg-gray {
+  background-color: #111318;
+}
