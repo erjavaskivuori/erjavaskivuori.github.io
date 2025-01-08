@@ -1,7 +1,7 @@
-import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import { RiMailSendFill } from 'react-icons/ri';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react"
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { RiMailSendFill } from "react-icons/ri"
+import { TypeAnimation } from "react-type-animation"
 
 const Home = () => {
   return (
@@ -20,9 +20,9 @@ const Home = () => {
           <h1 className="my-2 py-3 text-2xl font-bold sm:text-3xl md:py-6 md:text-5xl">
             <TypeAnimation
               sequence={[
-                'Software developer',
+                "Software developer",
                 1000,
-                'M.Sc. student in CS',
+                "M.Sc. student in CS",
                 1000
               ]}
               wrapper="span"
@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

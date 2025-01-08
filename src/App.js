@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from './components/Navbar.jsx';
-import Home from './components/Home.jsx';
-import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
+import React from "react"
+import Navbar from "./components/Navbar.jsx"
+import Home from "./components/Home.jsx"
+import Projects from "./components/Projects.jsx"
+import Contact from "./components/Contact.jsx"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Projects />
       <Contact />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

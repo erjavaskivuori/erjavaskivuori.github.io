@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import profile from '../assets/profile.png';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import React, { useState } from "react"
+import profile from "../assets/profile.png"
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false)
 
   const handleNav = () => {
-    setNav(!nav);
-  };
+    setNav(!nav)
+  }
 
   return (
     <div className="fixed top-0 z-50 w-full">
@@ -38,8 +38,8 @@ const Navbar = () => {
           role="button"
           onClick={handleNav}
           onKeyDown={(e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              handleNav();
+            if (e.key === "Enter" || e.key === " ") {
+              handleNav()
             }
           }}
           tabIndex={0}
@@ -51,8 +51,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 h-full w-[60%] border-r border-r-gray-900 bg-[#202121] text-gray-300 duration-500 ease-in-out'
-              : 'fixed left-[-100%]'
+              ? "fixed left-0 top-0 h-full w-[60%] border-r border-r-gray-900 bg-[#202121] text-gray-300 duration-500 ease-in-out"
+              : "fixed left-[-100%]"
           }
         >
           <h1 className="secondary-color m-4 text-3xl font-bold">
@@ -72,7 +72,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

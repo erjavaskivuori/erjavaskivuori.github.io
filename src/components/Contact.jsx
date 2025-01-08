@@ -1,6 +1,6 @@
-import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import { RiMailSendFill } from 'react-icons/ri';
+import React from "react"
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { RiMailSendFill } from "react-icons/ri"
 
 const Contact = () => {
   return (
@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

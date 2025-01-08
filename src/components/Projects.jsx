@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 const Projects = () => {
   return (
@@ -105,7 +105,7 @@ const Projects = () => {
               <p className="mb-7 mt-3 font-normal text-gray-200">
                 Mobile application designed to make is easier to discover and
                 attend cultural activities. I used Miro for the design. Project
-                was part of the course{' '}
+                was part of the course{" "}
                 <strong>Human Computer Interaction </strong>
                 (CSM13401) in the University of Helsinki.
               </p>
@@ -237,7 +237,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
