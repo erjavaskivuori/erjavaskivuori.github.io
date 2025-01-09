@@ -54,11 +54,12 @@ const Home = () => {
               <RiMailSendFill />
             </a>
             <a
-              href="/cv_test.pdf"
-              download="vaskivuori_cv"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1R3q60-LtzDJViEb2_1deWuNHv5PbRwo3/view?usp=sharing"
               className="button-hover rounded-lg border border-violet-500 px-4 py-2 text-xs md:text-xl text-violet-500"
             >
-              Download CV
+              Resume
             </a>
           </div>
         </div>
