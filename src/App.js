@@ -1,18 +1,14 @@
 import React from "react"
-import Navbar from "./components/Navbar.jsx"
-import Home from "./components/Home.jsx"
-import Projects from "./components/Projects.jsx"
-import Contact from "./components/Contact.jsx"
+import { BrowserRouter } from "react-router"
+import Router from "./pages/router.jsx"
 
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Projects />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
+
 
 export default App
