@@ -7,7 +7,7 @@ const Projects = () => {
       className="flex min-h-full flex-col items-center justify-center bg-[#000000] py-28 text-white"
       id="projects"
     >
-      <div className="mx-auto flex max-w-6xl flex-row md:flex-col-reverse items-center gap-12 px-10 md:gap-6">
+      <div className="mx-auto flex max-w-6xl flex-row items-center gap-12 px-10 md:flex-col-reverse md:gap-6">
         <div>
           <div className="p-2">
             <div className="my-3 text-gray-200">
@@ -19,11 +19,10 @@ const Projects = () => {
                 projects, through which I have learned a wide range of
                 technologies and high quality code writing.
               </p>
-              <p className="text-base md:text-lg mt-3">
-                Beyond that, I have
-                learned other skills important in software development, such as
-                design, testing, security, documentation and agile development
-                methods.
+              <p className="mt-3 text-base md:text-lg">
+                Beyond that, I have learned other skills important in software
+                development, such as design, testing, security, documentation
+                and agile development methods.
               </p>
             </div>
           </div>
@@ -45,13 +44,14 @@ const Projects = () => {
               title="TrainingHub"
               description={
                 <>
-                  Developed for Eficode Oy to organise internal trainings. In the
-                  team of six students everyone was a full stack developer and we
-                  used <strong>Scrum</strong> as our agile framework. The
+                  Developed for Eficode Oy to organise internal trainings. In
+                  the team of six students everyone was a full stack developer
+                  and we used <strong>Scrum</strong> as our agile framework. The
                   technologies used included <strong>TypeScript</strong>,
                   <strong> React</strong>, <strong>Next.js</strong>,
                   <strong> Docker</strong>,<strong> PostgreSQL</strong> and
-                  testing with <strong> Cypress</strong> and <strong> Jest</strong>.
+                  testing with <strong> Cypress</strong> and{" "}
+                  <strong> Jest</strong>.
                 </>
               }
               link="https://github.com/ohtutraininghub/traininghub"
@@ -63,8 +63,9 @@ const Projects = () => {
                 <>
                   Mobile application designed to make it easier to discover and
                   attend cultural activities. I used Miro to create the design.
-                  Project was part of the course <strong>Human Computer Interaction</strong>.
-                  The project included multiple design iterations and research with users.
+                  Project was part of the course{" "}
+                  <strong>Human Computer Interaction</strong>. The project
+                  included multiple design iterations and research with users.
                 </>
               }
               link="/design-project"
@@ -74,10 +75,12 @@ const Projects = () => {
               title="Cyber Security Project"
               description={
                 <>
-                  Implemented independently for the course <strong>Cyber Security Base</strong>.
-                  I learned more about common security flaws, how to identify them and
-                  secure applications from vulnerabilities. The created application contains security issues,
-                  and I provided steps to fix them. Used technologies included
+                  Implemented independently for the course{" "}
+                  <strong>Cyber Security Base</strong>. I learned more about
+                  common security flaws, how to identify them and secure
+                  applications from vulnerabilities. The created application
+                  contains security issues, and I provided steps to fix them.
+                  Used technologies included
                   <strong> Python</strong>,<strong> Flask</strong>,
                   <strong> HTML</strong> and <strong> SQLite</strong>.
                 </>
@@ -90,10 +93,10 @@ const Projects = () => {
               description={
                 <>
                   Web application that simulates library management and client
-                  functionalities. Technologies included <strong>Python</strong>,
-                  <strong> Flask</strong>, <strong>PostgreSQL</strong> and
-                  <strong> HTML/CSS</strong>. Programmed independently on the course Database
-                  Application.
+                  functionalities. Technologies included <strong>Python</strong>
+                  ,<strong> Flask</strong>, <strong>PostgreSQL</strong> and
+                  <strong> HTML/CSS</strong>. Programmed independently on the
+                  course Database Application.
                 </>
               }
               link="https://github.com/erjavaskivuori/tsoha-library"
@@ -103,10 +106,11 @@ const Projects = () => {
               title="Study-app"
               description={
                 <>
-                  Desktop application to manage university courses and tasks related to them.
-                  Used technologies included <strong>Python</strong>, <strong>Tkinter</strong> and
-                  <strong> SQLite</strong>. Programmed independently on the course
-                  Software Development Methods.
+                  Desktop application to manage university courses and tasks
+                  related to them. Used technologies included{" "}
+                  <strong>Python</strong>, <strong>Tkinter</strong> and
+                  <strong> SQLite</strong>. Programmed independently on the
+                  course Software Development Methods.
                 </>
               }
               link="https://github.com/erjavaskivuori/ot-harjoitustyo"

@@ -6,9 +6,7 @@ const Card = ({ title, description, link, linkText }) => {
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
         {title}
       </h5>
-      <p className="mb-7 mt-3 font-normal text-gray-200">
-        {description}
-      </p>
+      <p className="mb-7 mt-3 font-normal text-gray-200">{description}</p>
       <a
         href={link}
         className="button-color button-hover inline-flex items-center rounded-lg bg-violet-600 px-3 py-2 text-center text-sm font-medium text-white hover:bg-violet-800"

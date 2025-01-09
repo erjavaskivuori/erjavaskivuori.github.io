@@ -7,17 +7,17 @@ const Home = () => {
   return (
     <div>
       <div
-        className="mx-auto flex h-screen max-w-[1100px] flex-row md:flex-col-reverse items-center justify-center"
+        className="mx-auto flex h-screen max-w-[1100px] flex-row items-center justify-center md:flex-col-reverse"
         id="home"
       >
         <div className="mx-8 my-auto flex-col">
-          <p className="font-bold text-gray-200 text-2xl md:text-3xl">
+          <p className="text-2xl font-bold text-gray-200 md:text-3xl">
             Hi there! I am
           </p>
-          <p className="pt-3 font-bold text-gray-200 text-4xl md:text-6xl">
+          <p className="pt-3 text-4xl font-bold text-gray-200 md:text-6xl">
             Erja Vaskivuori
           </p>
-          <h1 className="my-2 py-3 font-bold text-xl md:py-6 md:text-5xl">
+          <h1 className="my-2 py-3 text-xl font-bold md:py-6 md:text-5xl">
             <TypeAnimation
               sequence={[
                 "Software developer",
@@ -31,13 +31,13 @@ const Home = () => {
             />
           </h1>
           <div className="flex items-center justify-center">
-            <p className="font-bold text-gray-300 text-xl md:text-2xl">
-              I am currently pursuing Master&apos;s degree in Computer Science and
-              working with test automation. I have strong skillset and a lot of
-              enthusiasm to learn more as a software developer.
+            <p className="text-xl font-bold text-gray-300 md:text-2xl">
+              I am currently pursuing Master&apos;s degree in Computer Science
+              and working with test automation. I have strong skillset and a lot
+              of enthusiasm to learn more as a software developer.
             </p>
           </div>
-          <div className="my-7 flex justify-start gap-5 text-3xl md:text-5xl text-violet-500">
+          <div className="my-7 flex justify-start gap-5 text-3xl text-violet-500 md:text-5xl">
             <a
               href="https://github.com/erjavaskivuori"
               className="button-hover"
@@ -57,7 +57,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1R3q60-LtzDJViEb2_1deWuNHv5PbRwo3/view?usp=sharing"
-              className="button-hover rounded-lg border border-violet-500 px-4 py-2 text-xs md:text-xl text-violet-500"
+              className="button-hover rounded-lg border border-violet-500 px-4 py-2 text-xs text-violet-500 md:text-xl"
             >
               Resume
             </a>

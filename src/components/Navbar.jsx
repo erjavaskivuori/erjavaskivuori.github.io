@@ -25,13 +25,19 @@ const Navbar = () => {
         </h1>
         <ul className="hidden md:flex">
           <li className="p-5">
-            <HashLink smooth to="/#home">Home</HashLink>
+            <HashLink smooth to="/#home">
+              Home
+            </HashLink>
           </li>
           <li className="p-5">
-            <HashLink smooth to="/#projects">Projects</HashLink>
+            <HashLink smooth to="/#projects">
+              Projects
+            </HashLink>
           </li>
           <li className="p-5">
-            <HashLink smooth to="/#contact">Contact</HashLink>
+            <HashLink smooth to="/#contact">
+              Contact
+            </HashLink>
           </li>
         </ul>
 
@@ -61,13 +67,19 @@ const Navbar = () => {
           </h1>
           <ul className="p-8 text-2xl">
             <li className="p-5">
-              <HashLink smooth to="/#home">Home</HashLink>
+              <HashLink smooth to="/#home">
+                Home
+              </HashLink>
             </li>
             <li className="p-5">
-              <HashLink smooth to="/#projects">Projects</HashLink>
+              <HashLink smooth to="/#projects">
+                Projects
+              </HashLink>
             </li>
             <li className="p-5">
-              <HashLink smooth to="/#contact">Contact</HashLink>
+              <HashLink smooth to="/#contact">
+                Contact
+              </HashLink>
             </li>
           </ul>
         </div>

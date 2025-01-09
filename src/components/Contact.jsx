@@ -10,7 +10,7 @@ const Contact = () => {
         id="contact"
       >
         <div className="mx-8 my-auto flex flex-col">
-          <p className="mb-4 font-bold text-gray-200 text-5xl md:text-7xl">
+          <p className="mb-4 text-5xl font-bold text-gray-200 md:text-7xl">
             Let&apos;s keep in touch
           </p>
           <div className="my-7 flex flex-col justify-center gap-5 text-5xl text-violet-500 sm:flex-row">
