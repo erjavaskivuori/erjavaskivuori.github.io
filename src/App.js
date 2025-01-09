@@ -4,7 +4,7 @@ import Home from "./components/Home.jsx"
 import Projects from "./components/Projects.jsx"
 import Contact from "./components/Contact.jsx"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
