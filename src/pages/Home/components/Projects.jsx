@@ -39,6 +39,7 @@ const Projects = () => {
               }
               link="https://github.com/erjavaskivuori/portfolio"
               linkText="GitHub"
+              openNew={true}
             />
             <Card
               title="TrainingHub"
@@ -56,6 +57,9 @@ const Projects = () => {
               }
               link="https://github.com/ohtutraininghub/traininghub"
               linkText="GitHub"
+              link2="https://drive.google.com/file/d/1WEFORaSrj_9jUqsQE2XDSS4xvHjd-7wK/view?usp=sharing"
+              linkText2="Diploma"
+              openNew={true}
             />
             <Card
               title="UI/UX Design Project"
@@ -70,6 +74,7 @@ const Projects = () => {
               }
               link="/design-project"
               linkText="Read more"
+              openNew={false}
             />
             <Card
               title="Cyber Security Project"
@@ -87,6 +92,7 @@ const Projects = () => {
               }
               link="https://github.com/erjavaskivuori/csb-project"
               linkText="GitHub"
+              openNew={true}
             />
             <Card
               title="Library-app"
@@ -101,6 +107,7 @@ const Projects = () => {
               }
               link="https://github.com/erjavaskivuori/tsoha-library"
               linkText="GitHub"
+              openNew={true}
             />
             <Card
               title="Study-app"
@@ -115,6 +122,7 @@ const Projects = () => {
               }
               link="https://github.com/erjavaskivuori/ot-harjoitustyo"
               linkText="GitHub"
+              openNew={true}
             />
           </div>
         </div>
