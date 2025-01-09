@@ -2,14 +2,16 @@ import React from "react"
 
 const Card = ({ title, description, link, linkText }) => {
   return (
-    <div className="bg-gray rounded-lg p-6 shadow">
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-        {title}
-      </h5>
-      <p className="mb-7 mt-3 font-normal text-gray-200">{description}</p>
+    <div className="bg-gray flex flex-col justify-between rounded-lg p-6 shadow">
+      <div>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+          {title}
+        </h5>
+        <p className="mb-7 mt-3 font-normal text-gray-200">{description}</p>
+      </div>
       <a
         href={link}
-        className="button-color button-hover inline-flex items-center rounded-lg bg-violet-600 px-3 py-2 text-center text-sm font-medium text-white hover:bg-violet-800"
+        className="button-color button-hover inline-flex items-center self-start rounded-lg px-3 py-2 text-center text-sm font-medium text-white"
       >
         {linkText}
         <svg
