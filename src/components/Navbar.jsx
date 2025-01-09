@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { HashLink } from "react-router-hash-link"
 import profile from "../assets/profile.png"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
@@ -24,13 +25,13 @@ const Navbar = () => {
         </h1>
         <ul className="hidden md:flex">
           <li className="p-5">
-            <a href="#home">Home</a>
+            <HashLink smooth to="/#home">Home</HashLink>
           </li>
           <li className="p-5">
-            <a href="#projects">Projects</a>
+            <HashLink smooth to="/#projects">Projects</HashLink>
           </li>
           <li className="p-5">
-            <a href="#contact">Contact</a>
+            <HashLink smooth to="/#contact">Contact</HashLink>
           </li>
         </ul>
 
@@ -60,13 +61,13 @@ const Navbar = () => {
           </h1>
           <ul className="p-8 text-2xl">
             <li className="p-5">
-              <a href="#home">Home</a>
+              <HashLink smooth to="/#home">Home</HashLink>
             </li>
             <li className="p-5">
-              <a href="#projects">Projects</a>
+              <HashLink smooth to="/#projects">Projects</HashLink>
             </li>
             <li className="p-5">
-              <a href="#contact">Contact</a>
+              <HashLink smooth to="/#contact">Contact</HashLink>
             </li>
           </ul>
         </div>
