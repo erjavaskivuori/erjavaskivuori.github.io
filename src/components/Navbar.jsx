@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from "react-router"
+import { Link, useLocation } from "react-router"
 import { HashLink } from "react-router-hash-link"
 import profile from "../assets/profile.png"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
@@ -10,6 +10,8 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav)
   }
+
+  const location = useLocation()
 
   return (
     <div className="fixed top-0 z-50 w-full">
@@ -32,16 +34,26 @@ const Navbar = () => {
               Home
             </HashLink>
           </li>
-          <li className="p-5">
-            <HashLink smooth to="/#projects">
-              Projects
-            </HashLink>
-          </li>
-          <li className="p-5">
-            <HashLink smooth to="/#contact">
-              Contact
-            </HashLink>
-          </li>
+          {location.pathname === "/" ? (
+            <>
+              <li className="p-5">
+                <HashLink smooth to="/#projects">
+                  Projects
+                </HashLink>
+              </li>
+              <li className="p-5">
+                <HashLink smooth to="/#contact">
+                  Contact
+                </HashLink>
+              </li>
+            </>
+          ) : (
+            <li className="p-5">
+              <HashLink smooth to="/design-project/#prototype">
+                Prototype
+              </HashLink>
+            </li>
+          )}
         </ul>
 
         <div
@@ -74,16 +86,26 @@ const Navbar = () => {
                 Home
               </HashLink>
             </li>
-            <li className="p-5">
-              <HashLink smooth to="/#projects">
-                Projects
-              </HashLink>
-            </li>
-            <li className="p-5">
-              <HashLink smooth to="/#contact">
-                Contact
-              </HashLink>
-            </li>
+            {location.pathname === "/" ? (
+              <>
+                <li className="p-5">
+                  <HashLink smooth to="/#projects">
+                    Projects
+                  </HashLink>
+                </li>
+                <li className="p-5">
+                  <HashLink smooth to="/#contact">
+                    Contact
+                  </HashLink>
+                </li>
+              </>
+            ) : (
+              <li className="p-5">
+                <HashLink smooth to="/design-project/#prototype">
+                  Prototype
+                </HashLink>
+              </li>
+            )}
           </ul>
         </div>
       </div>
