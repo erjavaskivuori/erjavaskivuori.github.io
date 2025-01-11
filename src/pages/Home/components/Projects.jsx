@@ -1,7 +1,11 @@
 import React from "react"
 import Card from "../components/Card.jsx"
+import { HashLink } from "react-router-hash-link"
 
 const Projects = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
   return (
     <div
       className="flex min-h-full flex-col items-center justify-center bg-[#000000] py-28 text-white"
@@ -61,21 +65,44 @@ const Projects = () => {
               linkText2="Diploma"
               openNew={true}
             />
-            <Card
-              title="UI/UX Design Project"
-              description={
-                <>
+            <div className="bg-gray flex flex-col justify-between rounded-lg p-6 shadow">
+              <div>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+                  UI/UX Design Project
+                </h5>
+                <p className="mb-7 mt-3 font-normal text-gray-200">
                   Mobile application designed to make it easier to discover and
                   attend cultural activities. I used Miro to create the design.
                   Project was part of the course{" "}
                   <strong>Human Computer Interaction</strong>. The project
                   included multiple design iterations and research with users.
-                </>
-              }
-              link="/design-project"
-              linkText="Read more"
-              openNew={false}
-            />
+                </p>
+              </div>
+              <div>
+                <HashLink
+                  onClick={scrollToTop}
+                  to="/design-project"
+                  className="button-color button-hover mr-5 inline-flex items-center self-start rounded-lg px-3 py-2 text-center text-sm font-medium text-white"
+                >
+                  Read more
+                  <svg
+                    className="ms-2 h-3.5 w-3.5 rtl:rotate-180"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </HashLink>
+              </div>
+            </div>
             <Card
               title="Cyber Security Project"
               description={

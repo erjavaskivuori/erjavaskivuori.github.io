@@ -1,12 +1,16 @@
 import React from "react"
-import { BrowserRouter } from "react-router"
-import Router from "./pages/router.jsx"
+import { Routes, Route, HashRouter } from "react-router-dom"
+import Home from "./pages/Home/index.jsx"
+import DesignProject from "./pages/DesignProject/index.jsx"
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Router />
-    </BrowserRouter>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/design-project" element={<DesignProject />} />
+      </Routes>
+    </HashRouter>
   )
 }
 

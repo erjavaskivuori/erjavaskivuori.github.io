@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link, useLocation } from "react-router"
+import { useLocation } from "react-router-dom"
 import { HashLink } from "react-router-hash-link"
 import profile from "../assets/profile.png"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
@@ -17,16 +17,18 @@ const Navbar = () => {
     <div className="fixed top-0 z-50 w-full">
       <div className="text-l mx-auto my-3 flex h-24 max-w-[1140px] items-center justify-between px-4 text-gray-300">
         <div className="my-auto">
-          <Link to={{ pathname: "/" }}>
+          <HashLink smooth to="/#home">
             <img
               className="mx-auto h-auto w-[60px] rounded-full md:w-[90px]"
               src={profile}
               alt="Erja Vaskivuori"
             />
-          </Link>
+          </HashLink>
         </div>
         <h1 className="secondary-color ml-4 w-full text-xl font-bold lg:text-2xl">
-          <Link to={{ pathname: "/" }}>Erja Vaskivuori</Link>
+          <HashLink smooth to="/#home">
+            Erja Vaskivuori
+          </HashLink>
         </h1>
         <ul className="hidden md:flex">
           <li className="p-5">
