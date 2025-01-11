@@ -23,8 +23,8 @@ const Prototype = () => {
                 The <span>Prototype</span>
               </h3>
               <p>
-                More info will be added about the prototype. Feel free to
-                look through already in the mean time though!
+                More info will be added about the prototype. Feel free to look
+                through already in the mean time though!
               </p>
             </div>
           </div>

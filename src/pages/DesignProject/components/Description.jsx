@@ -2,7 +2,9 @@ import React from "react"
 
 const Description = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-[#000000] py-28 text-white">
+    <div
+      className="flex min-h-screen flex-col items-center justify-center bg-[#000000] py-28 text-white"
+    >
       <div className="mx-auto flex max-w-6xl flex-row items-center gap-12 px-10 md:flex-col-reverse md:gap-6">
         <div>
           <div className="p-2">
