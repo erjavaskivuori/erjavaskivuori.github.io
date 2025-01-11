@@ -5,7 +5,7 @@ import Prototype from "./components/Prototype.jsx"
 
 const DesignProject = () => {
   return (
-    <div className="Home">
+    <div>
       <Navbar />
       <Description />
       <Prototype />

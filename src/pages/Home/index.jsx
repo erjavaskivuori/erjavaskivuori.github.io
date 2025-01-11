@@ -6,7 +6,7 @@ import Contact from "../../components/Contact.jsx"
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div>
       <Navbar />
       <About />
       <Projects />
