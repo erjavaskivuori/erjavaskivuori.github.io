@@ -70,7 +70,7 @@ const Projects = () => {
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                   UI/UX Design Project
                 </h5>
-                <p className="mb-7 mt-3 font-normal text-gray-200">
+                <p className="mt-3 mb-7 font-normal text-gray-200">
                   Mobile application designed to make it easier to discover and
                   attend cultural activities. I used Miro to create the design.
                   Project was part of the course{" "}

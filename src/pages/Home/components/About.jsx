@@ -33,8 +33,9 @@ const Home = () => {
           <div className="flex items-center justify-center">
             <p className="text-xl font-bold text-gray-300 md:text-2xl">
               I am currently pursuing Master&apos;s degree in Computer Science
-              and working as an Open Source Developer Intern. I have strong skillset and a lot
-              of enthusiasm to learn more as a software developer.
+              and working as an Open Source Developer Intern. I have strong
+              skillset and a lot of enthusiasm to learn more as a software
+              developer.
             </p>
           </div>
           <div className="my-7 flex justify-start gap-5 text-3xl text-violet-500 md:text-5xl">

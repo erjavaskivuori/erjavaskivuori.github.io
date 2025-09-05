@@ -15,7 +15,7 @@ const Card = ({
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
           {title}
         </h5>
-        <p className="mb-7 mt-3 font-normal text-gray-200">{description}</p>
+        <p className="mt-3 mb-7 font-normal text-gray-200">{description}</p>
       </div>
       <div>
         <a
