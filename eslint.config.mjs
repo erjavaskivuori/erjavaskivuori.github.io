@@ -6,6 +6,7 @@ import jsxA11y from 'eslint-plugin-jsx-a11y'
 export default [
   js.configs.recommended,
   {
+    files: ['**/*.{js,jsx}'],
     plugins: {
       import: importPlugin,
       react,

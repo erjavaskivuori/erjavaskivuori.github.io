@@ -46,6 +46,23 @@ const Projects = () => {
               openNew={true}
             />
             <Card
+              title="Kudelma"
+              description={
+                <>
+                  Kudelma is actively developed full-stack web project that
+                  delivers curated content, such as books, art, music, and
+                  recipes to users, by integrating external APIs. Built with{" "}
+                  <strong>TypeScript</strong>,<strong> React</strong>,{" "}
+                  <strong>Node.js</strong>,<strong> Express</strong>,{" "}
+                  <strong> Redis</strong>,<strong> PostgreSQL</strong>, and
+                  <strong> Docker</strong>.
+                </>
+              }
+              link="https://github.com/erjavaskivuori/kudelma"
+              linkText="GitHub"
+              openNew={true}
+            />
+            <Card
               title="TrainingHub"
               description={
                 <>
@@ -133,21 +150,6 @@ const Projects = () => {
                 </>
               }
               link="https://github.com/erjavaskivuori/tsoha-library"
-              linkText="GitHub"
-              openNew={true}
-            />
-            <Card
-              title="Study-app"
-              description={
-                <>
-                  Desktop application to manage university courses and tasks
-                  related to them. Used technologies included{" "}
-                  <strong>Python</strong>, <strong>Tkinter</strong> and
-                  <strong> SQLite</strong>. Programmed independently on the
-                  course Software Development Methods.
-                </>
-              }
-              link="https://github.com/erjavaskivuori/ot-harjoitustyo"
               linkText="GitHub"
               openNew={true}
             />
